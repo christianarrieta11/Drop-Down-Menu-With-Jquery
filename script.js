@@ -4,8 +4,12 @@
 
         
      $(".menu").on('click', () => {
-       $("il").slideToggle(500);
+       $("il").slideToggle(100);
      });
+
+     $(".menu").on('click', () => {
+        $("il").hide();
+      });
     
     
 
